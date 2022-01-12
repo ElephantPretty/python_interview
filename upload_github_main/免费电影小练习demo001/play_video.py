@@ -8,8 +8,13 @@ import tkinter.messagebox as msgbox
 # 控制浏览器
 import webbrowser
 
-
-# https://www.bilibili.com/video/BV1GA411H7Nr
+"""
+前言--这份demo只适合大一大二新手兴趣提升，对面向对象并无太大帮助【解析电影实际效果也不好】
+"""
+# class a:
+#     def b(self):
+#         print('hello World!')
+# 代码流程
 class App():
     """
     重写构造函数,被称为魔术方法
