@@ -28,7 +28,7 @@ def index():
     # result_file = read_file()
     # result_db= read_db()
     # result_api = read_api()
-    #返回3个future对象
+    # 返回3个future对象
     result_file = pool.submit(read_file)
     result_db= pool.submit(read_db)
     result_api = pool.submit(read_api)

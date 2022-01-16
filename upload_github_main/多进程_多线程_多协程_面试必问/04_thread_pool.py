@@ -2,7 +2,6 @@ import concurrent.futures
 import blog_spider
 
 
-
 with concurrent.futures.ThreadPoolExecutor() as pool:
     """
     craw
