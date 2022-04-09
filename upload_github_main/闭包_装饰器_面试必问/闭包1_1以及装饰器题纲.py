@@ -34,3 +34,4 @@ var = func() # 创建过程在func函数的执行过程中
 # var == func1()
 var(3) # 这个其实就相当于func1(),即实现了从外部调用内部函数，方式仅仅只是内部函数被return出来即可
 del var
+

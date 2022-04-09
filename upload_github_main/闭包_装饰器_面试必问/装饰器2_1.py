@@ -21,7 +21,7 @@ return func() 返回的是一个函数调用
 2-func1(myprint)执行完成后会返回->func2
 3-fun2()内部函数调用时会首先调用aaabbb,func()即传递进来的myprint()
 """
-@func1 # 专门接收一个函数对象
+@func1 # 专门接收一个函数对象 这里隐含是func1(myprint)
 def myprint():
     print('你好，我是大象')
 
