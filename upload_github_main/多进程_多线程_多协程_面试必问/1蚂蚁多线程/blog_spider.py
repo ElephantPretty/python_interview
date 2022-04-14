@@ -33,6 +33,8 @@ def parse(html):
 
 # craws(urls[0])
 # print(urls)
+
+
 if __name__ == "__main__":
     for result in parse(craw(urls[2])):
         print(result)

@@ -1,4 +1,5 @@
 """
+https://www.bilibili.com/video/BV1BT4y1P7nn?spm_id_from=333.337.search-card.all.click
 迭代器定义:
 1-类中定义了__iter__和__next__两个方法
 2-__iter__方法需要返回对象本身,即self
