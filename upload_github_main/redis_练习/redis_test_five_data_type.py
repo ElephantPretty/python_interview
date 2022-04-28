@@ -815,6 +815,4 @@ if __name__ == "__main__":
 hash里面的hset,hget,hmget,hgetall
 list里面的lpush,lrange
 set和sorted都用的比较少
-
-
 """

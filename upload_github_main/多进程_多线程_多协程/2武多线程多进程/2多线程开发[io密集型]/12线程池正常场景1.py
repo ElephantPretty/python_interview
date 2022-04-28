@@ -18,6 +18,10 @@ for url in url_list:
     # url和2是参数,submit(函数名,参数1,参数2...)
     pool.submit(task,url,2)
 
+"""
+1-线程池正常使用
+2-等待线程池的任务执行完毕，主线程在继续执行
+"""
 print('执行中')
 pool.shutdown(True) # 等待线程池中的任务执行完毕后，在继续执行
 print('end')
