@@ -1,0 +1,1 @@
+# http://www.kfc.com.cn/kfccda/index.aspx
